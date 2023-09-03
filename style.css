@@ -1,0 +1,48 @@
+body
+{
+  color:white;
+  background: green;
+}
+form
+{
+  border: thick dashed black;
+  padding:10px;
+  font: 25px Arial, sans-serif;
+}
+table
+{
+  border: thick solid black;
+  width: 1500px;
+  margin: auto;
+}
+th
+{
+  border: medium solid black;
+  padding: 3px;
+  width: 150px;
+}
+td
+{
+  border: thin solid black;
+  padding: 5px;
+  width: 150px;
+  font-size: 20px;
+}
+button {
+  background-color: rgb(255, 0, 0); /* Green */
+  border: 2px solid black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button2:hover 
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2:active
+{
+  opacity:85%;
+}

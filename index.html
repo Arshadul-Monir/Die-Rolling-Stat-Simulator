@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body onload="initialize();">
+    <form id="input">
+      <b>Number of dice:</b> <br />
+      <label>
+        <input name="dice" type="radio" value="1"/>1<br />
+      </label>
+      <label>
+        <input name="dice" type="radio" value="2"/>2<br />
+      </label>
+      <label>
+        <input name="dice" type="radio" value="3"/>3<br />
+      </label>
+      <br />
+      Number of rolls: <input autocomplete="off" value = 0 name="rolls" onKeyDown="return false" type="number" min="1" max="99" />
+    </form>
+    <br />
+    <button class="button2" onclick="rollDice();">Roll Dice</button>
+    <hr />
+    <table>
+      <tr>
+        <th>Frequency</th>
+        <th>Mean</th>
+        <th>Median <br /></th>
+        <th>Mode <br /></th>
+        <th>Frequency of doubles</th>
+        <th>Frequency of triples</th>
+      </tr>
+      <tr>
+        <td id="frequency"></td>
+        <td id="mean"></td>
+        <td id="median"></td>
+        <td id="mode"></td>
+        <td id="double"></td>
+        <td id="triple"></td>
+      </tr>
+
+    </table>
+  </body>
+
+</html>
